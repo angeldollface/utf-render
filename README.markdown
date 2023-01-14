@@ -1,6 +1,6 @@
-# UTF RENDER :indian_temple: :scroll:
+# UTF RENDER :hindu_temple: :scroll:
 
-***A special web app to render fancy UTF-8 sequences. :indian_temple: :scroll:***
+***A special web app to render fancy UTF-8 sequences. :hindu_temple: :scroll:***
 
 ![GitHub CI](https://github.com/angeldollface/utf-render/actions/workflows/yew.yml/badge.svg)
 
@@ -74,5 +74,5 @@ trunk --config trunk.toml build --release
 
 ## NOTE :scroll:
 
-- *UTF Render :indian_temple: :scroll:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
+- *UTF Render :hindu_temple: :scroll:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
 - Licensed under the MIT license.
