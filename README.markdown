@@ -6,8 +6,7 @@
 
 ## ABOUT :books:
 
-Emojis and fancy symbols are part of the UTF-8 character standard (The unicode standard.). Each character has a special unicode sequence assocociated with it. To render this character out, you need the sequence. 
-This app helps you by rendering the sequence as a symbol for you to copy  and use for whatever you want. This repository contains some 
+Emojis and fancy symbols are part of the UTF-8 character standard (The unicode standard.). Each character has a special unicode sequence assocociated with it. To render this character out, you need the sequence. This app helps you by rendering the sequence as a symbol for you to copy  and use for whatever you want. This repository contains the source code for a web app that does exactly this. This project was written in CSS and Rust using Yew. 
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
