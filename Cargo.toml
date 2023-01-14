@@ -1,0 +1,21 @@
+[package]
+name = "utf-render"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+authors = ["Angel Dollface"]
+description= "A special web app to render fancy UTF-8 sequences."
+homepage = "https://github.com/angeldollface/utf-render"
+repository = "https://github.com/angeldollface/utf-render"
+documentation = "https://github.com/angeldollface/utf-render"
+readme = "README.markdown"
+keywords = ["cli"]
+categories = ["web-app"]
+exclude = ["/.github"]
+
+[dependencies]
+gloo = "0.8.0"
+yew-hooks = "0.2.0"
+wasm-bindgen = "0.2.83"
+yew = { version = "0.20.0", features = ["csr"] }
+web-sys = { version = "0.3.60", features = [ "HtmlInputElement" ] }

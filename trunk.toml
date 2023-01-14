@@ -1,0 +1,12 @@
+[build]
+target = "public/index.html"
+release = false
+dist = "dist"
+public_url = "/utf-render/"
+
+[serve]
+address = "127.0.0.1"
+port = 8080
+open = false
+no_autoreload = false
+public_url = "/utf-render/"
