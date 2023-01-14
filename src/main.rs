@@ -138,6 +138,7 @@ pub fn InfoCog() -> Html {
 #[function_component]
 pub fn App() -> Html {
     return html!{
+        <>
         <div class="content">
          <div class="container">
           <HeadingCog/>
@@ -145,6 +146,9 @@ pub fn App() -> Html {
           <InfoCog/>
          </div>
         </div>
+        <br/>
+        <br/>
+        </>
     };
 }
 
