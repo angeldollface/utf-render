@@ -1,3 +1,9 @@
+:root {
+    --main-color: #faede7;
+    --accent-color: #000000;
+    --std-font: 'Merriweather-Regular';
+    --hover-color: #FF7BAC;
+}
 html {
     top: 0;
     right: 0;
@@ -9,7 +15,6 @@ html {
     margin: 0px;
     box-sizing: border-box;
 }
-
 body {
     top: 0;
     right: 0;
@@ -17,145 +22,127 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: floralwhite;
+    background-color: var(--main-color);
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-
 h1 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
     padding: 0px;
-    font-family: 'PSB';
+    font-family: var(--std-font);
     font-size: 35px;
-    color: #000;
+    color: var(--accent-color);
     text-align: center;
 }
-
 div.content {
     width: 70%;
     margin: 0 auto;
     padding: 0px;
-    margin-top: 30vh !important;
+    margin-top: 0px !important;
     margin-bottom: 0px !important;
-    border: 3px solid #000;
-    background-color: floralwhite;
+    border: 3px solid var(--accent-color);
+    background-color: var(--main-color);
     border-radius: 0px;
 }
-
 div.container {
     margin: 0 auto;
     display: block;
     width: 70%;
-    margin-bottom: 20px !important;
-    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
     border: none;
     background-color: transparent;
 }
-
 input[type=text]{
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
     border-radius: 0px;
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid var(--accent-color);
     border-top: none;
     border-left:none;
     border-right:none;
     box-shadow: none;
-    font-family: 'PSB';
+    font-family: var(--std-font);
     background-color: transparent;
     padding: 0px;
     font-size: 25px;
-    color: #000;
+    color: var(--accent-color);
 }
-
 input[type=text]:focus {
     outline: none;
 }
-
 button{
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     border-radius: 15px;
-    border: 3px solid #000;
+    border: 3px solid var(--accent-color);
     box-shadow: none;
-    font-family: 'PSB';
+    font-family: var(--std-font);
     background-color: transparent;
     padding: 15px;
     font-size: 25px;
-    color: #000;
+    color: var(--accent-color);
 }
-
 p.rendered {
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
-    font-family: 'PSB';
+    font-family: var(--std-font);
     font-size: 25px;
-    color: #000;
+    color: var(--accent-color);
     text-align: center;
 }
-
 p {
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
-    font-family: 'PSB';
+    font-family: var(--std-font);
     font-size: 25px;
-    color: #000;
+    color: var(--accent-color);
     text-align: left;
 }
-
 h2 {
     text-align: left;
+    font-style: italic;
+    text-decoration: underline;
     font-size: 28px;
-    font-family: 'PSB';
-    margin-top: 0px;
-    margin-bottom: 10px;
+    font-family: var(--std-font);
+    margin-top: 10px;
+    color: var(--accent-color);
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
 }
-
 a {
     margin: 0px;
     padding: 0px;
-    font-family: 'PSB';
+    font-family: var(--std-font);
     font-size: 25px;
-    color: #000;
+    color: var(--accent-color);
     text-decoration: underline;
     transition-duration: 0.6s;
 }
-
 a:hover {
-    color: #808080;
+    color: var(--hover-color);
 }
-
 @media screen and (max-width: 800px){
     h1 {
-        margin-top: 27px;
+        font-size: 27px;
     }
     div.content {
         width: 90%;
-        margin-top: 10vh !important;
     }
     div.container {
         width: 80%;
-        margin-bottom: 10px !important;
-        margin-top: 10px !important;
     }
     input[type=text]{
         font-size: 22px;
@@ -168,7 +155,6 @@ a:hover {
         font-size: 22px;
     }
     p {
-        margin-bottom: 20px;
         font-size: 22px;
     }
     
