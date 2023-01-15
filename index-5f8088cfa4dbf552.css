@@ -1,9 +1,17 @@
+/*
+UTF-8 RENDER by Alexander Abraham, a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+/* App-wide style variables.*/
 :root {
     --main-color: #faede7;
     --accent-color: #000000;
     --std-font: 'Merriweather-Regular';
     --hover-color: #FF7BAC;
 }
+
+/* Desktop section start. */
 html {
     top: 0;
     right: 0;
@@ -134,6 +142,49 @@ a {
 a:hover {
     color: var(--hover-color);
 }
+div.footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-top: 3px solid var(--accent-color);
+}
+p.footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: var(--std-font);
+    margin-top: 0px;
+    color: var(--accent-color);
+}
+a.footer {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: var(--std-font);
+    margin-top: 0px;
+    color: var(--accent-color);
+    transition-duration: 0.6s;
+}
+a.footer:hover {
+    color: var(--hover-color);
+}
+i.footer {
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    margin: 0px;
+    color: var(--accent-color);
+}
+/* Desktop section end. */
+
+/* Mobile section start. */
 @media screen and (max-width: 800px){
     h1 {
         font-size: 27px;
@@ -165,4 +216,16 @@ a:hover {
     a {
         font-size: 22px;
     }
+    p.footer {
+        padding: 10px;
+        font-size: 22px;
+    }
+    a.footer {
+        font-size: 22px;
+    }
+    i.footer {
+        width: 22px;
+        height: 22px;
+    }
 }
+/* Mobile section end. */
