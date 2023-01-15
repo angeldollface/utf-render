@@ -11,15 +11,19 @@ mod modules;
 // We use Yew's APIs.
 use yew::prelude::*;
 
-// Importing the Information Cog
+// Importing the information cog
 // from "modules/InfoCog.rs".
 use modules::InfoCog::InfoCog;
 
-// Importing the Render Cog
+// Importing the footer cog
+// from "modules/FooterCog.rs".
+use modules::FooterCog::FooterCog;
+
+// Importing the render cog
 // from "modules/RenderCog.rs".
 use modules::RenderCog::RenderCog;
 
-// Importing the Heading Cog
+// Importing the heading cog
 // from "modules/HeadingCog.rs".
 use modules::HeadingCog::HeadingCog;
 
@@ -46,6 +50,8 @@ pub fn App() -> Html {
          </div>
          <br/>
          <br/>
+         <br/>
+         <FooterCog/>
         </>
     };
 }

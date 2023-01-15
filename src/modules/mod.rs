@@ -15,6 +15,10 @@ pub mod InfoCog;
 // for "RenderCog.rs".
 pub mod RenderCog;
 
+// Declaring the footer cog module
+// for "FooterCog.rs".
+pub mod FooterCog;
+
 // Declaring the heading cog module
 // for "HeadingCog.rs".
 pub mod HeadingCog;
